@@ -1,0 +1,12 @@
+{
+    "accomodates" : "2",
+    "bathrooms" : "1.0",
+    "bedrooms" : "1",
+    "beds" : "4",
+    "bed_type": "Pull-out Sofa",
+    "instant_bookable" : "1",
+    "minimum_nights" : "3",
+    "neighborhood" : "Friedrichshain-Kreuzberg",
+    "room_type" : "Entire home/apt",
+    "wifi" : "0"
+}
