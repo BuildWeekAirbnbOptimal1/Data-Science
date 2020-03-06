@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width' initial-scale=1.0>
+    <meta http-equic='X-UA-Compatible' content='ie=edge'>
+    <title>Input Parameters Here</title>
+</head>
+<body>
+
+    <h1>THIS IS THE PREDICTION PAGE</h1>
+
+    <form action='/price' method='post'>
+        <label>Accommodates:</label>
+        <input type='number' step=1 name='accommodates' value="0" placeholder="required field">
+
+        <label>Bedrooms:</label>
+        <input type='number' step=1 name='bedrooms' value="0" placeholder="required field">
+
+        <label>Cleaning Fee:</label>
+        <input type='number' step=1 name='cleaning_fee' value="0" placeholder="required field">
+
+        <label>Extra People:</label>
+        <input type='number' step=1 name='extra_people' value="0" placeholder="required field">
+
+        <label>Guests Included:</label>
+        <input type='number' step=1 name='guests_included' value="0" placeholder="required field">
+
+        <label>Minimum Nights:</label>
+        <input type='number' step=1 name='minimum_nights' value="0" placeholder="required field">
+        
+        <label>Neighborhood:</label>
+        <select name='neighbourhood'>
+            <option value='neighbourhood_group_cleansed_Mitte'>Mitte</option>
+            <option value='neighbourhood_group_cleansed_Pankow'>Pankow</option>
+            <option value='neighbourhood_group_cleansed_Tempelhof_Schoneberg'>Tempelhof-Schoneberg</option>
+            <option value='neighbourhood_group_cleansed_Friedrichshain_Kreuzberg'>Friedrichshain-Kreuzberg</option>
+            <option value='neighbourhood_group_cleansed_Neukolln'>Neukolln</option>
+            <option value='neighbourhood_group_cleansed_Charlottenburg_Wilm'>Charlottenberg-Wilm</option>
+            <option value='neighbourhood_group_cleansed_Treptow_Kopenick'>Treptow-Kopenick</option>
+            <option value='neighbourhood_group_cleansed_Steglitz_Zehlendorf'>Steglitz-Zehlendorf</option>
+            <option value='neighbourhood_group_cleansed_Reinickendorf'>Reinickendorf</option>
+            <option value='neighbourhood_group_cleansed_Lichtenberg'>Lichtenberg</option>
+            <option value='neighbourhood_group_cleansed_Marzahn_Hellersdorf'>Marzahn-Hellersdorf</option>
+            <option value='neighbourhood_group_cleansed_Spandau'>Spandau</option>
+        </select>
+
+        <label>Property Type:</label>
+        <select name='property_type'>
+            <option value='property_type_Guesthouse'>Guesthouse</option>
+            <option value='property_type_Apartment'>Apartment</option>
+            <option value='property_type_Condominium'>Condominium</option>
+            <option value='property_type_Loft'>Loft</option>
+            <option value='property_type_House'>House</option>
+            <option value='property_type_Serviced_apartment'>Serviced Apartment</option>
+            <option value='property_type_Townhouse'>Townhouse</option>
+            <option value='property_type_Other'>Other</option>
+            <option value='property_type_Bed_and_breakfast'>Bed and Breakfast</option>
+            <option value='property_type_Guest_suite'>Guest Suite</option>
+            <option value='property_type_Hostel'>Hostel</option>
+        </select>
+
+        <label>Room Type:</label>
+        <select name="room_type">
+            <option value='room_type_Entire_home/apt'>Entire Home/Apt</option>
+            <option value='room_type_Private_room'>Private Room</option>
+            <option value='room_type_Shared_room'>Shared Room</option>
+        </select>
+
+        <label>Bed Type:</label>
+        <select name='bed_type'>
+            <option value='bed_type_Real_Bed'>Real Bed</option>
+            <option value='bed_type_Sofa_Other'>Sofa\Other</option>
+        </select>
+
+        <label>Instant Bookable:</label>
+        <select name='instant_bookable'>
+            <option value='instant_bookable_t'>Yes</option>
+            <option value='instant_bookable_f'>No</option>
+        </select>
+
+        <label>Cancellation Policy:</label>
+        <select name='cancellation_policy'>
+            <option value='cancellation_policy_strict'>Strict</option>
+            <option value='cancellation_policy_flexible'>Flexible</option>
+            <option value='cancellation_policy_moderate'>Moderate</option>
+        </select>
+    
+        <button>Submit</button>
+    </form>
+</body>
+</html>
